@@ -24,4 +24,4 @@
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Strict_equality
 //https://www.youtube.com/watch?v=FCkhDBsXsFg
 
-// hola
+// 
