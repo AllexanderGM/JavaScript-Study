@@ -24,4 +24,8 @@
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Strict_equality
 //https://www.youtube.com/watch?v=FCkhDBsXsFg
 
-// 
+// Funciones de Arrays
+// https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array
+
+// Métodos para Arrays
+// https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array

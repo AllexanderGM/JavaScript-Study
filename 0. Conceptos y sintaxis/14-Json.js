@@ -17,7 +17,8 @@
 //     "edad": 30
 // }"
 
-// Todas las propiedades de un objeto (nombre, apellido, edad) se representan como cadenas de texto entre comillas dobles y los valores igualmente a excepción de valores numericos, objetos, arreglos y valores booleanos.
+// Todas las propiedades de un objeto (nombre, apellido, edad) se representan como cadenas de texto entre comillas
+// dobles y los valores igualmente a excepción de valores numericos, objetos, arreglos y valores booleanos.
 // Las propiedades pueden ser de cualquier tipo de dato, incluyendo objetos y arreglos excepto funciones.
 // La representación JSON en una cadena de texto (String)
 // Se puede representar de manera manual el objeto

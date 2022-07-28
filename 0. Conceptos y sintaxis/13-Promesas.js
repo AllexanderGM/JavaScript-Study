@@ -1,4 +1,6 @@
 // Promesas
+console.log("\n============ Promesas =============\n");
+
 // Una promesa es un objeto que representa la terminación o el fracaso de una operación.
 // Una promesa se puede resolver o rechazar.
 //
@@ -10,7 +12,6 @@
 // });
 
 // Ejemplo:
-console.log("\n============ Promesas =============\n");
 
 const promesa = new Promise((resolve, reject) => {
   setTimeout(() => {

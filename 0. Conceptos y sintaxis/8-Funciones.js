@@ -1,17 +1,19 @@
 // Funciones
-// Una función es un conjunto de instrucciones que se pueden ejecutar en cualquier momento.
-// Una función puede recibir parámetros y devolver valores.
-// Se pueden crear funciones sin nombre, pero es recomendable tener un nombre descriptivo.
-// Se declaran con la palabra reservada function.
+console.log("============ Funciones =============\n");
+
+// - Una función es un conjunto de instrucciones que se pueden ejecutar en cualquier momento en el que sea necesitado.
+// - Una función puede recibir o no parámetros y devolver valores.
+// - Se pueden crear funciones sin nombre, pero es recomendable tener un nombre descriptivo.
+// - Se declaran con la palabra reservada function.
+// - En la programación estructurada, se suele colocar la función en la partee final y el lugar para llamarlo al principio.
 
 // Sintaxis:
 // function nombreFuncion(parametros) {
-//     // Instrucciones
+//     Instrucciones
 //     return valor;
 // }
 
 // Ejemplo:
-console.log("============ Funciones =============\n");
 
 // Función con parámetros:
 function sumar(numero1, numero2) {
@@ -56,13 +58,15 @@ console.log(
 );
 
 // Arrow Functions
+console.log("\n============ Funciones flecha =============\n");
+
 // Una función flecha es una función anónima que se puede utilizar como una función normal.
 // Se puede utilizar para reducir el código y evitar el uso de paréntesis.
 // Se declaran con la palabra reservada =>
 
 // Sintaxis:
 // (parametros) => {
-//     // Instrucciones
+//      Bloque de código
 //     return valor;
 // }
 
@@ -70,7 +74,6 @@ console.log(
 // (parametros) => valor;
 
 // Ejemplo:
-console.log("\n============ Funciones flecha =============\n");
 
 // Función con parámetros y devolver valor:
 let multiplicación = (numero1, numero2) => {
@@ -103,16 +106,16 @@ let potencia = () => {
 console.log(" -> Potencia: 10 ^ 2 es igual: " + potencia());
 
 // Parámetros por defecto:
-// Se pueden definir parámetros por defecto en la función. Esto permite que los parámetros no sean obligatorios en la llamada de la función.
+console.log("\n============ Parámetros por defecto =============\n");
+// Se pueden definir parámetros por defecto al interior de la función. Esto permite que los parámetros no sean obligatorios en la llamada de la función.
 
 // Sintaxis:
 // (parametros = valorPorDefecto) => {
-//     // Instrucciones
+//      Instrucciones
 //     return valor;
 // }
 
 // Ejemplo:
-console.log("\n============ Parámetros por defecto =============\n");
 
 const saludarDefecto = (nombre = "Anónimo") => {
   return "Hola " + nombre;
@@ -122,6 +125,8 @@ console.log(" -> Saludar: " + saludarDefecto("Juan"));
 console.log(" -> Saludar: " + saludarDefecto()); // Saludar con nombre por defecto, como no se ingresa ningún parámetro, se utiliza el nombre por defecto "Anónimo"
 
 // Spread Operator
+console.log("\n============ Spread Operator =============\n");
+
 // El operador spread (...) permite expandir una colección de elementos en una nueva colección.
 // Se puede utilizar para convertir elementos en un array o un objeto.
 
@@ -132,7 +137,6 @@ console.log(" -> Saludar: " + saludarDefecto()); // Saludar con nombre por defec
 // }
 
 // Ejemplo:
-console.log("\n============ Spread Operator =============\n");
 
 let contarNumeros = (...numeros) => {
   return numeros.length;

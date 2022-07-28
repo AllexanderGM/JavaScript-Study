@@ -1,6 +1,6 @@
 //EMAScript
-//es una especificación de lenguaje propuesta por ECMA intermacional
-//la cual esta encargada de regular los estandares de este idioma artificial.
+//es una especificación de lenguaje propuesta por ECMA intermacional la cual esta encargada de regular los estandares
+// de este idioma artificial.
 
 //Estas versiones son importantes en el sentido, que agregan nuevas
 //funcionalidades al lenguaje, por ejemplo vamos a ver:

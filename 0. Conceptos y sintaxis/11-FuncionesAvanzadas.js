@@ -3,13 +3,13 @@
 
 // Callbacks
 // Un callback es una función que se pasa como un argumento a otra función.
-// Es decir, un parametro de entrada de la función es otra función que se ejecuta cuando se llama a la función principal.
+// Es decir, un parametro de entrada de la función "1" es otra función "2" que se ejecuta cuando se llama a la función "1" principal.
 
 // Ejemplo:
 console.log("\n============ Callbacks =============\n");
 
 let operaciones = (num1, num2, callback) => {
-  // El parametro callback es una función sin importar el nombre que se se ejecutará cuando se llame a la función principal.
+  // El parametro callback es una función sin importar el nombre que se ejecutará cuando se llame a la función principal.
   let resultado = callback(num1, num2); // Callback puede adoptar cualquier funcionalidad que se requiera.
   console.log(" -> El resultado es: " + resultado);
 };
