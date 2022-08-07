@@ -11,7 +11,3 @@
 // - Funciones flecha
 // - Promesas y async / await
 // - Clases y módulos
-
-//¿Qué se debe tener en cuanta para utilizar ECMAScript?
-
-//
