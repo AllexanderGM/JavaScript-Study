@@ -35,3 +35,4 @@ const otraFuncion = async () => {
 // tratamiento de errores para datos que no se esperen, o que no coincidan con lalogica usada.
 
 otraFuncion();
+/*  */

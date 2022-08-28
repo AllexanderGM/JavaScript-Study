@@ -21,7 +21,7 @@ frutas.push("🍐");
 console.log(" push -> Lista de frutas: " + frutas);
 
 // .pop() -> Elimina el último elemento del array.
-frutas.push();
+frutas.pop();
 console.log(" push -> Lista de frutas: " + frutas); // No hay peras
 
 // .shift() -> Elimina el primer elemento del array.
